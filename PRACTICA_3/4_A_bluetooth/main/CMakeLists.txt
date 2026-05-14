@@ -1,0 +1,12 @@
+idf_component_register(
+    SRCS
+        "src/main.c"
+        "src/ble_server.c"
+        "src/rgb_led.c"
+    INCLUDE_DIRS
+        "include"
+    REQUIRES
+        bt
+        led_strip
+        nvs_flash
+)
