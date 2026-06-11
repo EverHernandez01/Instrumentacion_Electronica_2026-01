@@ -1,0 +1,3 @@
+dependencies:
+  thingsboard/ThingsBoard: "^0.15.0"
+  bblanchon/arduinojson: "^6.21.2"
